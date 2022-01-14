@@ -53,7 +53,7 @@ const Content = () => {
           alt=""
         />
       </div>
-      <Container className="text-center pt-3">
+      <Container className="text-center pt-3 " id="product">
         <p>It is a long established</p>
         <h4>Products</h4>
         <Carousel
@@ -86,7 +86,7 @@ const Content = () => {
         </Carousel>
       </Container>
 
-      <Container className="text-center pt-3">
+      <Container className="text-center pt-3" id="service">
         <p>It is a long established</p>
         <h4>Services</h4>
         <Carousel
@@ -157,7 +157,7 @@ const Content = () => {
           </div>
         </Carousel>
       </Container>
-      <Container className="text-center pt-3">
+      <Container className="text-center pt-3" id="portfolio">
         <p>It is a long established</p>
         <h4>Porfolio / Case Studies</h4>
         <Row className="pt-4">

@@ -13,43 +13,6 @@ const Header = () => {
         <AiOutlinePhone />
         <span className="phma1">+91 454544445, +91 4844848455</span>
       </p>
-
-      {/* <Navbar>
-        <Container>
-          <Navbar.Brand href="#home">Logo</Navbar.Brand>
-          <Navbar className="justify-content-end">
-            <Navbar.Toggle aria-controls="navbarScroll" />
-
-            <Navbar.Collapse id="navbarScroll">
-              <Nav
-                className="me-auto my-2 my-lg-0"
-                style={{ maxHeight: "100px" }}
-                navbarScroll
-              ></Nav>
-              <Nav.Link className="dark" href="#home">
-                Home
-              </Nav.Link>
-              <Nav.Link className="dark" href="#features">
-                About Us
-              </Nav.Link>
-              <Nav.Link className="dark" href="#pricing">
-                Services
-              </Nav.Link>
-              <Nav.Link className="dark" href="#features">
-                Products
-              </Nav.Link>
-              <Nav.Link className="dark" href="#pricing">
-                Portfolio
-              </Nav.Link>
-              <Nav.Link className="dark" href="#pricing">
-                <Button style={{ borderRadius: "15px", background: "#512da8" }}>
-                  Contact US
-                </Button>
-              </Nav.Link>
-            </Navbar.Collapse>
-          </Navbar>
-        </Container>
-      </Navbar> */}
       <Navbar bg="light" expand="lg">
         <Container style={{ marginTop: "-17px" }}>
           <Navbar.Brand href="#">Logo</Navbar.Brand>
@@ -66,19 +29,19 @@ const Header = () => {
               <Nav.Link className="dark " href="#home">
                 Home
               </Nav.Link>
-              <Nav.Link className="dark" href="#features">
+              <Nav.Link className="dark" href="#about">
                 About Us
               </Nav.Link>
-              <Nav.Link className="dark" href="#pricing">
+              <Nav.Link className="dark" href="#service">
                 Services
               </Nav.Link>
-              <Nav.Link className="dark" href="#features">
+              <Nav.Link className="dark" href="#product">
                 Products
               </Nav.Link>
-              <Nav.Link className="dark" href="#pricing">
+              <Nav.Link className="dark" href="#portfolio">
                 Portfolio
               </Nav.Link>
-              <Nav.Link className="dark" href="#pricing">
+              <Nav.Link className="dark" href="#contact">
                 <Button style={{ borderRadius: "15px", background: "#512da8" }}>
                   Contact US
                 </Button>

@@ -5,7 +5,7 @@ import "./Style.css";
 const Footer = () => {
   return (
     <>
-      <div className="footerCon">
+      <div className="footerCon" id="contact">
         <Container>
           <Row className="pt-5 pb-5">
             <div className="col-md-6" style={{ color: "white" }}>
