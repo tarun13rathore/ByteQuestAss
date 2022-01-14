@@ -1,0 +1,31 @@
+.dark {
+  color: black;
+}
+
+.dark:hover {
+  color: rgb(80, 75, 75);
+}
+
+.footerCon {
+  background-color: #00bcd4;
+}
+
+.signBtn {
+  margin: 39px;
+  margin-left: -134px;
+  border-radius: 20px;
+  height: 42px;
+  margin-top: 41px;
+  width: 139px;
+  background-color: #512da8;
+  color: aliceblue;
+}
+.phma {
+  background-color: #000000;
+  text-align: end;
+  color: rgb(247, 244, 238);
+}
+
+.phma1 {
+  color: rgb(156, 154, 150);
+}
